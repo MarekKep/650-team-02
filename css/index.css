@@ -15,7 +15,7 @@
     --second-font-family: 'PT Sans', sans-serif;
 }
 
-.return-period
+.return-period p
 {
     text-align: center;
     font-family: var(--font-family);
@@ -24,19 +24,36 @@
 }
 .head
 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: var(--accent-color);
+}
+.logo
+{
+    position: relative;
+    padding: 10px 0px 0px 150px;
 }
 .nav a
 {
     font-family: var(--second-font-family);
     padding: 15px;
+    margin: 10px 0px 0px 0px;
+    position: relative;
     display: inline-block;
     text-decoration: none;
     color: white;
 }
+.social-media-logo a
+{
+    padding: 10px;
+}
 .header-dot-style {
     color: red;
     
+}
+.front-page img
+{
+    max-width: 100%;
 }
 
 #about-us {
@@ -80,6 +97,23 @@
     padding: 30px;
 }
 footer {
-    background-color: black;
+    background-color: var(--accent-color);
+    color: white;
+}
+.second-nav a
+{
+    font-family: var(--second-font-family);
+    text-decoration: none;
+    margin: 15px;
+    display: block;
+    color:white 
+}
+.shop-now-nav a
+{
+    font-family: var(--second-font-family);
+    text-decoration: none;
+    margin: 15px;
+    display: block;
+    color:white
 }
 
