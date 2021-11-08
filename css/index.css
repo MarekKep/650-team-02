@@ -68,6 +68,7 @@
 
 #about-us {
     display: flex;
+    flex-direction: row;
     box-sizing: content-box;
 }
 #about-us img{  
