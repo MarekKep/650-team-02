@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+
+.main-collection {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 52px;
+    color: #222323;
+    font-weight: 400;
+    text-align: center;
+  
+}
+.shop-our-main {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    
+}
