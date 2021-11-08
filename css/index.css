@@ -68,11 +68,11 @@
 
 #about-us {
     display: flex;
-    flex-direction: row;
     box-sizing: content-box;
 }
 #about-us img{  
     display: flex;
+    flex-direction: column;
     max-width: 100%;
 }
 
@@ -87,6 +87,10 @@
     flex-direction: row;
     justify-content:flex-end;
     padding: 30px;
+}
+.social-media-logo a
+{
+    margin: 5px;
 }
 .header-about-us {
     padding-left: 20px;
