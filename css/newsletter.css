@@ -1,0 +1,14 @@
+.our-newsletter {
+    background-image: url(../img/newsletter/newsletter-background.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
+}
+
+.our-newsletter {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
