@@ -1,0 +1,47 @@
+.return-period
+{
+    text-align: center;
+    font-family: var(--font-family);
+    color: white;
+    background-color: red;
+}
+.head
+{
+    display: flex;
+    background-color: var(--accent-color);
+}
+.logo
+{
+    display: flex;
+    position: relative;
+    padding: 0px 0px 0px 150px;
+}
+.nav
+{
+    margin-left: 50px;
+}
+.nav a
+{
+    font-family: var(--font-family);
+    padding: 25px;
+    position: flex;
+    font-size: 1.2em;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+.social-media-logos
+{
+    margin: 0px 125px 0px 275px;
+    padding-top: 15px;
+    display: inline-block;
+}
+.social-media-logos a
+{
+    margin: 5px;
+}
+.front-page img
+{
+    max-width: 100%;
+    display: flex;
+}

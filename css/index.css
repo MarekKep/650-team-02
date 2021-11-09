@@ -1,82 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
-* 
-{
+@import url(../css/header.css);
+@import url(../css/front-page.css);
+@import url(../css/footer.css);
+
+* {
     margin: 0;
     padding: 0;
 }
 
-:root 
-{
+:root {
     --text-color: #fff;
     --company-color: #f40106;
     --accent-color: #222323;
     --second-accent-color: #9b9b9b;
     --font-family: 'Bebas Neue', cursive;
     --second-font-family: 'PT Sans', sans-serif;
-}
-.return-period
-{
-    text-align: center;
-    font-family: var(--font-family);
-    color: white;
-    background-color: red;
-}
-.head
-{
-    display: flex;
-    background-color: var(--accent-color);
-}
-.logo
-{
-    display: flex;
-    position: relative;
-    padding: 0px 0px 0px 150px;
-}
-.nav
-{
-    margin-left: 50px;
-}
-.nav a
-{
-    font-family: var(--font-family);
-    padding: 25px;
-    position: flex;
-    font-size: 1.2em;
-    display: inline-block;
-    text-decoration: none;
-    color: white;
+    scroll-behavior: smooth;
+    
 }
 .header-dot-style {
     color: red;
-    
 }
-.social-media-logos
-{
-    margin: 0px 125px 0px 275px;
-    padding-top: 15px;
-    display: inline-block;
-}
-.social-media-logos a
-{
-    margin: 5px;
-}
-.front-page img
-{
-    max-width: 100%;
-    display: flex;
-}
-
 #about-us {
     display: flex;
     flex-direction: row;
     box-sizing: content-box;
 }
-#about-us img{  
+#about-us img {  
     display: flex;
     flex-direction: column;
     max-width: 100%;
 }
-
 .content-about-us {
     display: flex;
     flex-direction: column;
@@ -121,25 +75,21 @@
     font-weight: 600;
     padding: 20px 20px 0px 20px;
 }
-.new-fitness-collection img{
+.new-fitness-collection img {
     width: 100%;
 }
-
-
 footer {
     background-color: var(--accent-color);
     color: white;
 }
-.second-nav a
-{
+.second-nav a {
     font-family: var(--second-font-family);
     text-decoration: none;
     margin: 15px;
     display: block;
     color:white 
 }
-.shop-now-nav a
-{
+.shop-now-nav a {
     font-family: var(--second-font-family);
     text-decoration: none;
     margin: 15px;
