@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
+
+
+#about-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#about-us img {
+    display:flex;
+    max-width: 50%;
+}
+
+#about-us hr {
+    border-color:red;
+    width: 5rem;
+    margin: -20px 0px 20px 20px;
+}
+
+.content-about-us {
+    padding-top: 2em;
+    background-color: rgb(44, 37, 37);
+    font-family: var(--font-family);
+    color: #fff;
+    padding-left: 1.5em;
+}
+
+.header-about-us {
+    color: white;
+    font-size: 2.8em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 20px;
+
+}
+
+.header-dot-style {
+    color: red;
+    font-size: 1em;
+}
+
+.info-about-us, .about-us-main {
+    padding: 20px;
+    letter-spacing: 0.1em;
+    font-size: 1.3em;
+    line-height: 1em;
+}
+
+.about-us-main {
+    font-family: var(--second-font-family);
+}
+
+.social-media-logo {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.new-fitness-collection {
+    background-image: url(../img/about-us/new-trend.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
