@@ -35,10 +35,6 @@
 
 }
 
-.header-dot-style {
-    color: red;
-    font-size: 1em;
-}
 
 .info-about-us, .about-us-main {
     padding: 20px;
@@ -61,5 +57,62 @@
     background-image: url(../img/about-us/new-trend.jpg);
     background-size: cover;
     background-position: center;
+    min-height: 500px;
+    padding-top: 10%;
+    padding-left: 8%;
+
 }
 
+
+.new-fitness-collection .new-fitness-collection-text {
+    display: flex;
+    justify-content: flex-start;
+    font-family: var(--second-font-family);
+    font-size: 1.5em;
+    color: #9b9b9b;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.new-fitness-collection h2{
+    display: flex;
+    color: var(--accent-color);
+    font-size: 6.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.new-fitness-collection span{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.header-dot-style {
+    color: red;
+    font-size: 1em;
+}
+.new-fitness-collection a{
+    padding: 0.35em 1.2em;
+    border: none;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition-duration: 0.7s;
+    background-color: red;  
+    font-size: 1.5em;
+    font-family: 'PT Sans', cursive;
+}
+
+.new-fitness-collection a:hover {
+    color: white;
+    background-color: var(--accent-color);
+    cursor: pointer;
+  }
+  #button {
+    display: flex;
+    text-decoration: none;
+  }
+  

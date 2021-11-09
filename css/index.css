@@ -2,6 +2,7 @@
 @import url(../css/header.css);
 @import url(../css/front-page.css);
 @import url(../css/footer.css);
+@import url(../css/about-us.css);
 
 * {
     margin: 0;
@@ -20,9 +21,6 @@
 
 
 
-.new-fitness-collection img {
-    width: 100%;
-}
 footer {
     background-color: var(--accent-color);
     color: white;
