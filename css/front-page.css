@@ -25,12 +25,13 @@
 #front-page-collections, #front-page-dot {
     color: red;
 }
-.shop-now-button {
+.front-page-button a {
         padding: 0.35em 1.2em;
         border: none;
         margin: 0 0.3em 0.3em 0;
         border-radius: 0.12em;
         color: white;
+        
         text-decoration: none;
         text-align: center;
         transition-duration: 0.7s;
@@ -38,8 +39,13 @@
         font-size: 1.5em;
         font-family: 'PT Sans', cursive;
 }
-  .shop-now-button:hover {
+.front-page-button a:hover {
     color: white;
     background-color: var(--accent-color);
     cursor: pointer;
   }
+  #button {
+    display: flex;
+    text-decoration: none;
+  }
+
