@@ -26,7 +26,6 @@ header .container .nav {
     .burger-icon {
         display: none;
     }
-
     header .container .nav {
         display: flex;
     }
