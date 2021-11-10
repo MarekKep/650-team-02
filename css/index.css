@@ -12,6 +12,7 @@
 img {
     display: block;
     width: 100%;
+}
 
 :root {
     --text-color: #fff;
