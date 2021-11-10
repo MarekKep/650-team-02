@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
+
 .front-page {
     background-image: url(../img/background.jfif);
     background-size: cover;
@@ -17,6 +18,11 @@
 .front-page-text h1 {
     color: var(--accent-color);
     font-size: 7em;
+}
+@media (max-width: 490px) {
+    .front-page-text {
+        font-size: 10px;
+    }
 }
 .front-page-text p {
     color: #9b9b9b;
