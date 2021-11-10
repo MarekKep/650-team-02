@@ -18,25 +18,3 @@
     --second-font-family: 'PT Sans', sans-serif;
     scroll-behavior: smooth;
     }
-
-
-
-footer {
-    background-color: var(--accent-color);
-    color: white;
-}
-.second-nav a {
-    font-family: var(--second-font-family);
-    text-decoration: none;
-    margin: 15px;
-    display: block;
-    color:white 
-}
-.shop-now-nav a {
-    font-family: var(--second-font-family);
-    text-decoration: none;
-    margin: 15px;
-    display: block;
-    color:white
-}
-
