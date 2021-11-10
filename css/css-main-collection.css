@@ -6,14 +6,66 @@
     font-size: 52px;
     color: #222323;
     font-weight: 400;
-    text-align: center;
-  
+    text-align: center; 
 }
 .shop-our-main {
     color: #717474;
     font-family: 'PT Sans', sans-serif;
     font-size: 20px;
-    text-align: center;
-
+    text-align: center; 
     
 }
+@media (min-width: 750px) {
+    .main-collection-img {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+@media (min-width: 975px) {
+    .main-collection-img {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+    }
+}
+.name-product {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.56;
+    font-weight: 400;
+    color: #717474;
+}
+.price-main-collection {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #f40106;
+    line-height: 1.56;
+    font-weight: 700;
+}
+.add-to-cart-main-collection {
+    padding: 15px 20px;
+    border: 0.1em solid black;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    background-color: black;
+  }
+  .add-to-cart-main-collection:hover {
+    color: white;
+    background-color: red;
+    cursor: pointer;
+  }
+  
+  .card-add-to-cart-main-collection:hover {
+    border-color: black;
+    color: black;
+  }
+  
+  .card-add-to-cart-main-collection:hover {
+    background-color: black;
+    color: black;
+  }
