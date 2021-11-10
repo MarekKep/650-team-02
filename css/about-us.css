@@ -12,6 +12,31 @@
     max-width: 50%;
 }
 
+@media (max-width: 800px){
+    #about-us {
+        display: block;
+    }
+    #about-us img {
+        max-width: 100%;
+    }
+    .social-media-logo {
+        display: inline-block;
+        max-width: 30%;
+        padding: 20px;
+    }
+    #about-us a {
+        margin: 0.5em;
+    }
+    .new-fitness-collection .main-text-collection {
+        box-sizing: border-box;
+        display: block;
+    }
+    .main-text-collection {
+        display: flex;
+        max-width: 100%;
+    }
+}
+
 #about-us hr {
     border-color:red;
     width: 5rem;
@@ -67,7 +92,7 @@
 .new-fitness-collection .new-fitness-collection-text {
     display: flex;
     justify-content: flex-start;
-    font-family: var(--second-font-family);
+    font-family: var(--font-family);
     font-size: 1.5em;
     color: #9b9b9b;
     font-weight: 100;
