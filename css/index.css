@@ -9,11 +9,6 @@
     margin: 0;
     padding: 0;
 }
-img {
-    display: block;
-    width: 100%;
-}
-
 :root {
     --text-color: #fff;
     --company-color: #f40106;
