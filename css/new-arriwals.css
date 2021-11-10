@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
+
+.menu-number-one {
+     margin: 10% auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 980px;
+     
+}
+
+.first-block {
+    background-image: url(../img/man-with-sneakers.svg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    align-items: flex-end;
+    display: flex;
+    flex-basis: 40%;
+
+}
+
+.second-block {
+    background-image: url(../img/skateboarder.png);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    align-items: flex-end;
+    display: flex;
+    flex-basis: 25%;
+
+}
+
+.third-block {
+    background-image: url(../img/clothes.png);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    align-items: flex-end;
+    display: flex;
+    flex-basis: 25%;
+  
+}
+
+.second-div {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 0 5px 10px;
+}
+
+.first-div {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 0 5px 10px;
+}
+
+.third-div {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 0 5px 10px;
+}
