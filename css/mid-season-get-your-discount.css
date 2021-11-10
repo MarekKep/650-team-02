@@ -1,0 +1,54 @@
+/* MID SEASON SALE */
+
+.mid-season-sale-header {
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .mid-season-sale-dash {
+    width: 100px;
+    background-color: #e0e0e0;
+  }
+  
+  .mid-season-sale-products-section {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .mid-season-sale-product {
+    flex-basis: 18%;
+  }
+  
+  .mid-season-sale-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .mid-season-sale-product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .btn-add-to-cart {
+    height: 30px;
+    width: 150px;
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .btn-add-to-cart:hover {
+    background-color: red;
+  }
+  
+  /* GET YOUR DISCOUNT */
+  
+  .get-your-discount-section {
+    background-image: url(../img/mid-season-get-your-discount/get-your-discount-background.png);
+    background-size: cover;
+  }
+  
