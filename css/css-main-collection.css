@@ -16,10 +16,6 @@
     
 }
 
-img {
-    display: block;
-    width: 100%;
-}
 @media (min-width: 750px) {
     .main-collection-img {
         display: grid;
