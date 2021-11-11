@@ -10,7 +10,7 @@
 }
 
 .block-new-arrival {
-    background-image: url(../img/man-with-sneakers.svg);
+    background-image: url(../img/new-arivals/man-with-sneakers.svg);
     background-size: cover;
     width: 300px;
     height: 200px;
@@ -21,7 +21,7 @@
 }
 
 .block-trainers {
-    background-image: url(../img/skateboarder.png);
+    background-image: url(../img/new-arivals/skateboarder.png);
     background-size: cover;
     width: 300px;
     height: 200px;
@@ -32,7 +32,7 @@
 }
 
 .block-hot-sale {
-    background-image: url(../img/clothes.png);
+    background-image: url(../img/new-arivals/clothes.png);
     background-size: cover;
     width: 300px;
     height: 200px;
