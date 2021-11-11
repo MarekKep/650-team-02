@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
 
-.menu-number-one {
+.menu-new-arrivals {
      margin: 10% auto;
      display: flex;
      align-items: center;
@@ -9,7 +9,7 @@
      
 }
 
-.first-block {
+.block-new-arrival {
     background-image: url(../img/man-with-sneakers.svg);
     background-size: cover;
     width: 300px;
@@ -20,7 +20,7 @@
 
 }
 
-.second-block {
+.block-trainers {
     background-image: url(../img/skateboarder.png);
     background-size: cover;
     width: 300px;
@@ -31,7 +31,7 @@
 
 }
 
-.third-block {
+.block-hot-sale {
     background-image: url(../img/clothes.png);
     background-size: cover;
     width: 300px;
@@ -42,7 +42,7 @@
   
 }
 
-.second-div {
+.div-trainers {
     height: 50px;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@
     padding: 0 0 5px 10px;
 }
 
-.first-div {
+.div-new-arrival {
     height: 50px;
     display: flex;
     flex-direction: column;
@@ -58,7 +58,7 @@
     padding: 0 0 5px 10px;
 }
 
-.third-div {
+.div-hot-sale {
     height: 50px;
     display: flex;
     flex-direction: column;
