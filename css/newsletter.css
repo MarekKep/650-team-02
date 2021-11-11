@@ -2,13 +2,39 @@
     background-image: url(../img/newsletter/newsletter-background.png);
     background-position: center;
     background-size: cover;
-    min-height: 200px;
+    min-height: 150px;
+    box-sizing: border-box;
 }
 
-.our-newsletter {
+/*.our-newsletter {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
-    justify-content: flex-end;
 }
+
+.our-newsletter .form-newsletter{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: space-between;
+    font-family:var(--second-font-family) ;
+    list-style: none;
+    order: 0;
+}
+
+.our-newsletter p {
+    display: flex;
+    justify-content: center;
+}*/
+
+.our-newsletter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+
+
 
 
