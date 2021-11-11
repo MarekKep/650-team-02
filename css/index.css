@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
-@import url(../css/header.css);
-@import url(../css/front-page.css);
-@import url(../css/footer.css);
-@import url(../css/about-us.css);
-@import url(../css/new-arriwals.css);
-@import url(../mid-season-get-your-discount.css);
+@import url(header.css);
+@import url(front-page.css);
+@import url(footer.css);
+@import url(about-us.css);
+@import url(new-arriwals.css);
+@import url(mid-season-get-your-discount.css);
+@import url(burger-menu.css);
 
 * {
     margin: 0;

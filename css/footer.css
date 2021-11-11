@@ -1,18 +1,20 @@
 footer {
     background-color: var(--accent-color);
-    color: white;
 }
 .second-nav a {
     font-family: var(--second-font-family);
     text-decoration: none;
     margin: 15px;
-    display: block;
-    color:white 
+    display: flex;
+
 }
 .shop-now-nav a {
     font-family: var(--second-font-family);
     text-decoration: none;
     margin: 15px;
-    display: block;
-    color:white
+    display: flex;
+}
+.foot #second-nav-hr {
+    color: blue;
+    width: 4%;
 }

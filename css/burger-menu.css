@@ -1,0 +1,26 @@
+#burger-checkbox {
+    display: none;
+}
+
+.burger-icon {
+    font-size: 3rem;
+    color: white;
+}
+
+header .container .nav {
+    display: none;
+    max-width: 100%;
+}
+
+#burger-checkbox:checked ~ .nav {
+    display: flex;
+}
+
+@media (min-width: 990px) {
+    .burger-icon {
+        display: none;
+    }
+    header .container .nav {
+        display: flex;
+    }
+}

@@ -5,60 +5,28 @@
     color: white;
     background-color: red;
 }
-#burger-checkbox {
-    display: none;
-}
-
-.burger-icon {
-    font-size: 3rem;
-    color: white;
-}
-
-header .container .nav {
-    display: none;
-}
-
-#burger-checkbox:checked ~ header .nav {
-    display: flex;
-}
-
-@media (min-width: 990px) {
-    .burger-icon {
-        display: none;
-    }
-    header .container .nav {
-        display: flex;
-    }
+header {
+    position: fixed;
+    width: 100%;
 }
 header .container {
     background-color: var(--accent-color);
-    display: flex;
     align-items: center;
     justify-content: space-around;
+    display: flex;
     padding: 10px;
 }
-@media (max-width: 320px) {
-    header .container {
-        display: flex;
-        justify-content: space-between;
-    }
-}
 .logo img {
-        max-width: 100%;
-        display: flex;
+    display: flex;
 }
+
 .container .nav a {
     font-family: var(--font-family);
     padding: 25px;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     text-decoration: none;
     color: white;
 }
 .container .social-media-logos a {
     padding: 5px;
-}
-@media (max-width: 990px) {
-    .container .social-media-logos {
-        display: none;
-    }
 }
