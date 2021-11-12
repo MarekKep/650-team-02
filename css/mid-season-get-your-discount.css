@@ -1,54 +1,119 @@
 /* MID SEASON SALE */
 
+.mid-season-sale-section {
+  width: 320px;
+  margin: 0 auto;
+  padding: 30px 15px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 1.3;
+  text-align: center;
+}
+
 .mid-season-sale-header {
-    width: 980px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  .mid-season-sale-dash {
-    width: 100px;
-    background-color: #e0e0e0;
-  }
-  
-  .mid-season-sale-products-section {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .mid-season-sale-product {
-    flex-basis: 18%;
-  }
-  
-  .mid-season-sale-img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .mid-season-sale-product-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  
-  .btn-add-to-cart {
-    height: 30px;
-    width: 150px;
-    padding-top: 10px;
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-  }
-  
-  .btn-add-to-cart:hover {
-    background-color: red;
-  }
-  
-  /* GET YOUR DISCOUNT */
-  
-  .get-your-discount-section {
-    background-image: url(../img/mid-season-get-your-discount/get-your-discount-background.png);
-    background-size: cover;
-  }
-  
+}
+
+.mid-season-sale-tittle,
+.mid-season-sale-info {
+  margin-bottom: 15px;
+}
+
+.mid-season-sale-tittle {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+}
+
+.header-dot-style {
+  color: red;
+  font-size: 2rem;
+}
+
+.mid-season-sale-dash {
+  width: 18px;
+  background-color: #e0e0e0;
+  margin: 0 auto 15px auto;
+}
+
+/*  */
+
+.mid-season-sale-products-section {
+  margin-top: 30px;
+}
+
+.mid-season-sale-product {
+  margin-bottom: 40px;
+}
+
+.mid-season-sale-product-tittle,
+.mid-season-sale-product-price,
+.btn-add-to-cart,
+.btn-shop-now {
+  display: block;
+  margin-bottom: 15px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.mid-season-sale-img {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.mid-season-sale-product-tittle {
+  color: #9b9b9b;
+}
+
+.mid-season-sale-product-price {
+  color: red;
+}
+
+.btn-add-to-cart {
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  background: #000;
+  width: 130px;
+  padding: 10px;
+}
+
+.btn-add-to-cart:hover {
+  background: red;
+}
+
+/* GET YOUR DISCOUNT */
+
+.get-your-discount-section {
+  background: #000 url(../img/mid-season-get-your-discount/get-your-discount-background.png) center no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.get-your-discount-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.get-your-discount-tittle {
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+}
+
+.get-your-discount-announce {
+  display: block;
+  color: #9b9b9b;
+}
+
+.btn-shop-now {
+  width: 125px;
+  padding: 10px 15px;
+  background: #fff;
+  color: #000;
+  font-weight: 400;
+  text-align: center;
+}
