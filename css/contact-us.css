@@ -2,29 +2,26 @@
 
 #contact-us {
     box-sizing: border-box;
-    border: 1px solid;
     text-align: center;
-    width: 30%;
-    height: 50%;
-    position: relative;
-    z-index: 1;
+    width: 20%;
+    height: 200px;
+    position:absolute;
+    background-color: #fff;
+    bottom: 400px;
+    right: 20%;
 } 
 
-.contact-us-main .map-and-contacts {
-   display: flex;
-   background-color: rgb(229, 227, 223);
+.contact-us-main {
+   position: relative;
 }
 
 .contact-us-main iframe {
-    position: relative;
     display: flex;
-    background-color: white;
-    z-index: 0;
 }
 
 .contact-us-main a {
     display: grid;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     text-decoration: none;
     color: var(--second-accent-color);
 }
