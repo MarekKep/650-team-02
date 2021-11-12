@@ -1,32 +1,106 @@
-.return-period {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --text-color: #fff;
+    --company-color: #f40106;
+    --accent-color: #222323;
+    --second-accent-color: #9b9b9b;
+    --font-family: 'Bebas Neue', cursive;
+    --second-font-family: 'PT Sans', sans-serif;
+    --scroll-behavior: smooth;
+}
+
+header .return-period {
     display: flex;
     justify-content: center;
     font-family: var(--font-family);
-    color: white;
-    background-color: red;
+    color: var(--text-color);
+    background-color: var(--company-color);
 }
+
 header {
     position: fixed;
-    width: 100%;
+    top: 0; 
+    left: 0; 
+    right: 0;
 }
-header .container {
-    background-color: var(--accent-color);
+
+#burger-checkbox {
+    display: none;
+}
+
+.burger-icon{
+    font-size: 3rem;
+}
+
+header .container .menu-nav, .social-media-logos {
+    display: none;
+}
+header .container .logo, .burger-icon {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
-    padding: 10px;
+    flex-wrap: wrap;
 }
-.logo img {
-    max-width: 100%;
+
+#burger-checkbox:checked ~ header .container .menu-nav, .social-media-logos a {
     display: flex;
 }
-.container .nav a {
-    font-family: var(--font-family);
-    padding: 25px;
-    font-size: 1.2em;
-    text-decoration: none;
-    color: white;
+
+@media (min-width: 768px) {
+
+    .burger-icon {
+        display: none;
+    }
+    
+    header .container .menu-nav, .social-media-logos {
+        display: flex;
+    }
 }
-.container .social-media-logos a {
+
+header .container {
+    color: var(--text-color);
+    background-color: var(--accent-color);
     padding: 5px;
+    font-family: var(--font-family);
+}
+
+header .menu-nav {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+header .menu-nav a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+header .container .social-media-logos a {
+    padding: 5px;
+}
+
+@media (min-width: 768px) {
+    header .container nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    header .container .menu-nav {
+        flex-direction: row;
+        align-items: center;
+        width: 50%;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 1024px) {
+    header .container .menu-nav {
+        font-size: large;
+    }
 }

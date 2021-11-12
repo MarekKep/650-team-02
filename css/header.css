@@ -1,33 +1,96 @@
-.return-period {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
+
+header .return-period {
     display: flex;
     justify-content: center;
     font-family: var(--font-family);
-    color: white;
-    background-color: red;
-}
-header {
-    position: fixed;
-    width: 100%;
-}
-header .container {
-    background-color: var(--accent-color);
-    align-items: center;
-    justify-content: space-around;
-    display: flex;
-    padding: 10px;
-}
-.logo img {
-    display: flex;
-    max-width: 100%;
+    color: var(--text-color);
+    background-color: var(--company-color);
 }
 
-.container .nav a {
-    font-family: var(--font-family);
-    padding: 25px;
-    font-size: 1.2em;
-    text-decoration: none;
-    color: white;
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
 }
-.container .social-media-logos a {
+
+#burger-checkbox {
+    display: none;
+}
+
+.burger-icon{
+    font-size: 3rem;
+}
+
+header .container .menu-nav, .social-media-logos {
+    display: none;
+}
+header .container .logo, .burger-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#burger-checkbox:checked ~ header .container .menu-nav, .social-media-logos a {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+
+    .burger-icon {
+        display: none;
+    }
+    
+    header .container .menu-nav, .social-media-logos {
+        display: flex;
+    }
+}
+
+header .container {
+    color: var(--text-color);
+    background-color: var(--accent-color);
     padding: 5px;
+    font-family: var(--font-family);
+}
+
+header .menu-nav {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+header .menu-nav a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+header .container .social-media-logos a {
+    padding: 5px;
+}
+
+@media (min-width: 768px) {
+    header .container nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    header .container .menu-nav {
+        flex-direction: row;
+        align-items: center;
+        width: 50%;
+        justify-content: space-evenly;
+    }
+}
+@media (min-width: 1024px) {
+    header .container .menu-nav {
+        font-size: large;
+    }
+}
+header .logo {
+    max-width: 14%;
+}
+header .social-media-logos {
+    max-width: 5%;
 }

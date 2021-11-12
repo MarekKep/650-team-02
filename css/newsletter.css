@@ -71,7 +71,7 @@ input[type="submit"] {
     border: 1px solid rgb(91, 217, 240);
 }
 
-@media @media (max-width: 600px) {
+@media (max-width: 600px) {
     .our-newsletter img, p, ul {
       display:grid;
       grid-template-columns: 1fr;
