@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
 
+:root {
+    --text-color: #fff;
+    --company-color: #f40106;
+    --accent-color: #222323;
+    --second-accent-color: #9b9b9b;
+    --font-family: 'Bebas Neue', cursive;
+    --second-font-family: 'PT Sans', sans-serif;
+    --scroll-behavior: smooth;
+    }
+    
 header .return-period {
     display: flex;
     justify-content: center;
@@ -10,12 +20,15 @@ header .return-period {
 
 header {
     position: fixed;
-    left: 0;
+    top: 0; 
+    left: 0; 
     right: 0;
-    top: 0;
-    z-index: 1;
 }
-
+header .container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 #burger-checkbox {
     display: none;
 }
@@ -34,7 +47,7 @@ header .container .logo, .burger-icon {
     flex-wrap: wrap;
 }
 
-#burger-checkbox:checked ~ header .container .menu-nav, .social-media-logos a {
+#burger-checkbox:checked ~ .menu-nav, .social-media-logos a {
     display: flex;
 }
 
@@ -84,14 +97,9 @@ header .container .social-media-logos a {
         justify-content: space-evenly;
     }
 }
+
 @media (min-width: 1024px) {
     header .container .menu-nav {
         font-size: large;
     }
-}
-header .logo {
-    max-width: 14%;
-}
-header .social-media-logos {
-    max-width: 5%;
 }

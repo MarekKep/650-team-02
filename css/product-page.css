@@ -29,26 +29,25 @@ header {
     left: 0; 
     right: 0;
 }
+header .container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 #burger-checkbox {
     display: none;
 }
-
 .burger-icon{
+    display: flex;
     font-size: 3rem;
 }
 
 header .container .menu-nav, .social-media-logos {
     display: none;
 }
-header .container .logo, .burger-icon {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
 
-#burger-checkbox:checked ~ header .container .menu-nav, .social-media-logos a {
+#burger-checkbox:checked ~ .menu-nav, .social-media-logos a {
     display: flex;
 }
 
