@@ -3,7 +3,7 @@
 #contact-us {
     box-sizing: border-box;
     text-align: center;
-    width: 20%;
+    width: 30%;
     height: 200px;
     position:absolute;
     background-color: #fff;
@@ -12,6 +12,8 @@
 } 
 
 .contact-us-main {
+
+   display: flex;
    position: relative;
 }
 
