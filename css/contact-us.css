@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
+
+#contact-us {
+    box-sizing: border-box;
+    border: 1px solid;
+    text-align: center;
+    width: 30%;
+    height: 50%;
+    position: relative;
+    z-index: 1;
+} 
+
+.contact-us-main .map-and-contacts {
+   display: flex;
+   background-color: rgb(229, 227, 223);
+}
+
+.contact-us-main iframe {
+    position: relative;
+    display: flex;
+    background-color: white;
+    z-index: 0;
+}
+
+.contact-us-main a {
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    text-decoration: none;
+    color: var(--second-accent-color);
+}
+.contact-us-main h2 {
+    font-family: var(--font-family);
+}
