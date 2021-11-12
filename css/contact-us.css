@@ -5,7 +5,7 @@
     text-align: center;
     width: 30%;
     height: 200px;
-    position:absolute;
+    /* position:absolute; */
     background-color: #fff;
     bottom: 400px;
     right: 20%;
@@ -14,7 +14,7 @@
 .contact-us-main {
 
    display: flex;
-   position: relative;
+   /* position: relative; */
 }
 
 .contact-us-main iframe {

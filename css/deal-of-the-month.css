@@ -15,3 +15,10 @@
 .text-more-details {
     font-family: 'PT sans';
 }
+
+.deal-of-the-month {
+    background-image: url(../img/deal-of-the-month/stretch-women.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 915px;
+}
