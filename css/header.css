@@ -18,12 +18,13 @@ header .container {
 }
 .logo img {
     display: flex;
+    max-width: 100%;
 }
 
 .container .nav a {
     font-family: var(--font-family);
     padding: 25px;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     text-decoration: none;
     color: white;
 }
