@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/newsletter.css">
     <link rel="stylesheet" href="product-page.html">
     <link rel="stylesheet" href="css/mid-season-get-your-discount.css">
+    <link rel="stylesheet" href="css/contact-us.css">
     <link rel="icon" href="img/icons/icon-company.png">
 </head>
 
@@ -26,31 +27,29 @@
             </p>
         </div>
         <div class="container">
-            <div class="logo">
-                <a href="#"> <img width="200" src="img/logo.svg" alt="logo"></a>
-                <label class="burger-icon" for="burger-checkbox">☰</label>
-                <input type="checkbox" id="burger-checkbox">
-            </div>
-            <div class="nav">
-                <nav>
+            <nav>
+                <div class="logo">
+                    <a href="index.html"> <img width="200" src="img/logo.svg" alt="logo"></a>
+                    <label class="burger-icon" for="burger-checkbox">☰</label>
+                    <input type="checkbox" id="burger-checkbox">
+                </div>
+                <div class="menu-nav">
                     <a href="#about-us">About us</a>
                     <a href="#sale">Sale</a>
                     <a href="#collection">Collection</a>
                     <a href="#blog">Blog</a>
                     <a href="#contact-us">Contact us</a>
                     <a href="product-page.html">Products</a>
-                </nav>
-            </div>
-            <div class="social-media-logos">
-                <nav>
+                </div>
+                <div class="social-media-logos">
                     <a href="https://www.youtube.com/"> <img width="35" src="img/icons/icon-youtube.png"
                             alt="Youtube logo"></a>
                     <a href="https://www.facebook.com/"> <img width="25" src="img/icons/icon-facebook.png"
                             alt="Facebook logo"></a>
                     <a href="https://www.instagram.com/"> <img width="25" src="img/icons/icon-instagram.png"
                             alt="Instagram logo"></a>
-                </nav>
-            </div>
+                </div>
+            </nav>
         </div>
     </header>
     <main>
@@ -121,13 +120,15 @@
             <div>
                 <img src="img/why-choose-us/plant.svg" alt="plant">
                 <p class="text-eco-materials">ECO MATERIALS</p>
-                <p class="text-all-items-are-made">All items are made with at least 30% recycled materials and zero virgin polyester.</p>
+                <p class="text-all-items-are-made">All items are made with at least 30% recycled materials and zero
+                    virgin polyester.</p>
             </div>
 
             <div>
                 <img src="img/why-choose-us/card.svg" alt="card">
                 <p class="text-payment-methods">20 PAYMENT METHODS</p>
-                <p class="text-pay-for-your">Pay for your orders with credit cards, PayPal, AliPay, and other payment methods.</p>
+                <p class="text-pay-for-your">Pay for your orders with credit cards, PayPal, AliPay, and other payment
+                    methods.</p>
             </div>
         </div>
 
@@ -349,10 +350,11 @@
 
         <!--Block ira-->
         <section class="deal-of-the-month">
-            <h2>DEAL OF THE MONTH.</h2>
-            <p>PUMA SPORTS BRA $50 $70</p>
-            <p>Start your fitness story right away with this comfortable bra and get advantage of our discount.</p>
-            <a href="#more-details">More Details</a>
+            <h2 class="text-deal-of-the-month">DEAL OF THE MONTH.</h2>
+            <p class="text-puma-sports">PUMA SPORTS BRA $50 $70</p>
+            <p class="text-start-your">Start your fitness story right away with this comfortable bra and get advantage
+                of our discount.</p>
+            <a class="text-more-details" href="#more-details">More Details</a>
             <img src="img/deal-of-the-month/stretch-women.jpg" alt="Stretching woman">
             <div class="countdown">
                 <p>Here must be countdown</p>
@@ -360,31 +362,35 @@
         </section>
 
         <div>
-            <p>NEW ARRIVALS.</p>
-            <p>Be the first to buy new items by leading brands.</p>
-            <button>More product</button>
+            <p class="text-arrivals">NEW ARRIVALS.</p>
+            <p class="text-be-first">Be the first to buy new items by leading brands.</p>
+            <button class="text-more-product">More product</button>
         </div>
 
         <div>
             <img src="img/carousel-goods/turquoise-sneakers.jfif" alt="turquoise-sneakers">
+            <p>Puma Textile Running Shoes</p>
             <p>$62,00</p>
             <button>Add to Card</button>
         </div>
 
         <div>
             <img src="img/carousel-goods/black-sneakers.jfif" alt="black-sneakers">
+            <p>Adidas Black Trainers</p>
             <p>$60,00</p>
             <button>Add to Card</button>
         </div>
 
         <div>
             <img src="img/carousel-goods/girl-in-a-blue-jacket.jfif" alt="girl-in-a-blue-jacket">
+            <p>Nike Winter Jacket in Blue</p>
             <p>$85,00</p>
             <button>Add to Card</button>
         </div>
 
         <div>
             <img src="img/carousel-goods/girl-in-a-red-coat.jfif" alt="girl-in-a-red-coat">
+            <p>Reebok Red Duster</p>
             <p>$60,00</p>
             <button>Add to Card</button>
         </div>
@@ -392,6 +398,7 @@
         <div>
             <img src="img/carousel-goods/black-sneakers-with-a-white-stripe.jfif"
                 alt="black-sneakers-with-a-white-stripe">
+            <p>Asics Jordan 2000</p>
             <p>$200,00</p>
             <button>Add to Card</button>
         </div>
@@ -404,16 +411,20 @@
                 <p class="original-brand">100% ORIGINAL BRANDS</p>
                 <h2 class="keep-fit">KEEP FIT WITH COMFORT.</h2>
                 <div class="keep-fit-with-confort-icon">
-                    <img width="20px" src="img/main-collection/down-arrow-2.img" alt="down-arrow-2.img"><span> Top Brands</span>
-                    <img width="20px" src="img/main-collection/down-arrow-2.img" alt="down-arrow-2.img"><span> Delivery With DHL</span>
-                    <img width="20px" src="img/main-collection/down-arrow-2.img" alt="down-arrow-2.img"><span> Easy return</span>
+                    <img width="20" src="img/main-collection/down-arrow-2.img" alt="down-arrow-2.img"><span> Top
+                        Brands</span>
+                    <img width="20" src="img/main-collection/down-arrow-2.img" alt="down-arrow-2.img"><span> Delivery
+                        With DHL</span>
+                    <img width="20" src="img/main-collection/down-arrow-2.img" alt="down-arrow-2.img"><span> Easy
+                        return</span>
                 </div>
-                <p class="workout-offers-fitness">Workout offers fitness clothing and footwear for those who want to change their lives and bodies
+                <p class="workout-offers-fitness">Workout offers fitness clothing and footwear for those who want to
+                    change their lives and bodies
                     for
                     better. We work only with the best sport brands to ensure that your training is really effective
                     and
                     comfortable.</p>
-               <button class="keep-learn-more"><a href="#about-us">Learn More</a></button>
+                <a class="keep-learn-more" href="#about-us">Learn More</a>
             </div>
             <div class="workout-woman-img">
                 <img src="img/deal-of-the-month/workout-woman.jpg" alt="Fit Woman">
@@ -432,38 +443,39 @@
         </div>
         <div class="our-newsletter">
             <div class="text-offer">
-            <div class="icon-offer">
-                <img width="40" src="img/icons/mail-logo.svg" alt="Mail logo">
-            </div>
-            
-                <p> <span class="header-dot-style">10%</span> OFF YOUR FIRST ORDER. <br> SIGN UP TO OUR NEWSLETTER TO GET THIS SPECIAL OFFER. </p>
+                <div class="icon-offer">
+                    <img width="40" src="img/icons/mail-logo.svg" alt="Mail logo">
+                </div>
+
+                <p> <span class="header-dot-style">10%</span> OFF YOUR FIRST ORDER. <br> SIGN UP TO OUR NEWSLETTER TO
+                    GET THIS SPECIAL OFFER. </p>
             </div>
             <div class="form-newsletter">
-            <form action="#">
-                <ul>
-                    <li>
-                        <input type="email" name="user_mail" placeholder="Your email address">
-                    </li>
-                    <li>
-                        <button type="submit">Subscribe</button>
-                    </li>
-                </ul>
-            </form>
+                <form action="#">
+                    <ul>
+                        <li>
+                            <input type="email" name="user_mail" placeholder="Your email address">
+                        </li>
+                        <li>
+                            <button type="submit">Subscribe</button>
+                        </li>
+                    </ul>
+                </form>
             </div>
         </div>
-        <div class="map-and-contacts">
+        <div class="contact-us-main">
             <iframe
                 src="
                 https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.4185754150153!2d-74.18139188459445!3d40.73081427932994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2537102f5f5df%3A0xc3d5dc357162b4ec!2zMzI1IFVuaXZlcnNpdHkgQXZlLCBOZXdhcmssIE5KIDA3MTAyLCDQodCo0JA!5e0!3m2!1sru!2sua!4v1636233117165!5m2!1sru!2sua"
-                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                width="1600" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div id="contact-us">
+                <h2>Contacts <span class="header-dot-style">.</span></h2>
+                <address>325 University Ave
+                    Newark, NJ 07102</address>
+                <a href="tel:+12345678900">+12345678900</a>
+                <a href="email:workout@email.com">workout@email.com</a>
+            </div>
         </div>
-        <section id="contact-us">
-            <h2>Contacts.</h2>
-            <address>325 University Ave
-                Newark, NJ 07102</address>
-            <a href="tel:+12345678900">+12345678900</a>
-            <a href="email:workout@email.com">workout@email.com</a>
-        </section>
     </main>
     <!--Block 11-12 end-->
     <footer>

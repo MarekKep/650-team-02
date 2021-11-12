@@ -2,7 +2,7 @@
     background-image: url(../img/newsletter/newsletter-background.png);
     background-position: center;
     background-size: cover;
-    min-height: 200px;
+    min-height: 150px;
     box-sizing: border-box;
 }
 
@@ -71,7 +71,7 @@ input[type="submit"] {
     border: 1px solid rgb(91, 217, 240);
 }
 
-@media @media (max-width: 600px) {
+@media (max-width: 600px) {
     .our-newsletter img, p, ul {
       display:grid;
       grid-template-columns: 1fr;
