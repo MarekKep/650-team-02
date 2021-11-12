@@ -2,38 +2,84 @@
     background-image: url(../img/newsletter/newsletter-background.png);
     background-position: center;
     background-size: cover;
-    min-height: 150px;
+    min-height: 200px;
     box-sizing: border-box;
 }
 
-/*.our-newsletter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-
-.our-newsletter .form-newsletter{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    align-content: space-between;
-    font-family:var(--second-font-family) ;
-    list-style: none;
-    order: 0;
-}
-
-.our-newsletter p {
-    display: flex;
-    justify-content: center;
-}*/
-
 .our-newsletter {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
     align-items: center;
 }
 
+.our-newsletter .form-newsletter, li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    
+}
+
+.our-newsletter .text-offer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: var(--second-font-family);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.our-newsletter img {
+    margin-right: 10px;
+    width: 35px;
+}
+
+.form-newsletter input[type="email"] {
+    border: 1px  rgb(209, 202, 202);
+    background-color: rgb(209, 202, 202);
+    padding: 5px 15px 5px 15px;
+    margin: -20px 10px 10px 10px;
+    width: 255px;
+    height: 30px;
+    font-family: var(--second-font-family);
+}
+.form-newsletter button {
+    border: none;
+    padding: 5px 10px 5px 10px;
+    margin: 0px 10px 0px 10px;
+    width: 285px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition-duration: 0.7s;
+    background-color: red;  
+    font-family: var(--second-font-family);
+ }
+ .form-newsletter button:hover {
+ color: white;
+ background-color: var(--accent-color);
+ cursor: pointer;
+}
+input[type="submit"] {
+ display: flex;
+ text-decoration: none;
+}
+
+.form-newsletter input[type="email"]:focus {
+    border: 1px solid rgb(91, 217, 240);
+}
+
+@media @media (max-width: 600px) {
+    .our-newsletter img, p, ul {
+      display:grid;
+      grid-template-columns: 1fr;
+    }
+    .our-newsletter {
+        min-height: 800px;
+    }
+}
 
 
 
