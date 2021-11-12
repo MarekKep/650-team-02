@@ -92,8 +92,8 @@
 .new-fitness-collection .new-fitness-collection-text {
     display: flex;
     justify-content: flex-start;
-    font-family: var(--font-family);
-    font-size: 1.5em;
+    font-family: var(--second-font-family);
+    font-size: 1.5vmax;
     color: #9b9b9b;
     font-weight: 100;
     text-transform: uppercase;
@@ -102,7 +102,8 @@
 .new-fitness-collection h2{
     display: flex;
     color: var(--accent-color);
-    font-size: 6.5em;
+    font-family: var(--font-family);
+    font-size: 10vmax;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -127,7 +128,7 @@
     text-align: center;
     transition-duration: 0.7s;
     background-color: red;  
-    font-size: 1.5em;
+    font-size: 2vmax;
     font-family: 'PT Sans', cursive;
 }
 

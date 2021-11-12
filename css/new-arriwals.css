@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
 
-.menu-number-one {
+.menu-new-arrivals {
      margin: 10% auto;
      display: flex;
      align-items: center;
@@ -9,8 +9,32 @@
      
 }
 
-.first-block {
-    background-image: url(../img/man-with-sneakers.svg);
+.menu-newarriwals {
+    font-family: 'Bebas Neue';
+}
+
+.newarrival-button {
+    font-family: 'PT sans';
+}
+
+.text-trainers{
+    font-family: 'Bebas Neue';
+}
+
+.trainers-buttom {
+    font-family: 'PT sans';
+}
+
+.text-hot-sale {
+    font-family: 'Bebas Neue';
+}
+
+.hot-sale-buttom {
+    font-family: 'PT sans';
+}
+
+.block-new-arrival {
+    background-image: url(../img/new-arivals/man-with-sneakers.svg);
     background-size: cover;
     width: 300px;
     height: 200px;
@@ -20,8 +44,8 @@
 
 }
 
-.second-block {
-    background-image: url(../img/skateboarder.png);
+.block-trainers {
+    background-image: url(../img/new-arivals/skateboarder.png);
     background-size: cover;
     width: 300px;
     height: 200px;
@@ -31,8 +55,8 @@
 
 }
 
-.third-block {
-    background-image: url(../img/clothes.png);
+.block-hot-sale {
+    background-image: url(../img/new-arivals/clothes.png);
     background-size: cover;
     width: 300px;
     height: 200px;
@@ -42,7 +66,7 @@
   
 }
 
-.second-div {
+.div-trainers {
     height: 50px;
     display: flex;
     flex-direction: column;
@@ -50,7 +74,7 @@
     padding: 0 0 5px 10px;
 }
 
-.first-div {
+.div-new-arrival {
     height: 50px;
     display: flex;
     flex-direction: column;
@@ -58,7 +82,7 @@
     padding: 0 0 5px 10px;
 }
 
-.third-div {
+.div-hot-sale {
     height: 50px;
     display: flex;
     flex-direction: column;
