@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
 
 .front-page {
-    background-image: url(../img/background.jfif);
+    background-image: url(../img/top-brand/background.jfif);
     background-size: cover;
     background-position: center;
 }
