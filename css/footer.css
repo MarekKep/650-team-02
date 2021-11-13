@@ -1,20 +1,102 @@
 footer {
     background-color: var(--accent-color);
-}
-.second-nav a {
-    font-family: var(--second-font-family);
-    text-decoration: none;
-    margin: 15px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    max-width: 100%
+}
+footer .foot,
+.logo-nav,
+.second-nav,
+.shop-now-nav,
+.follow-us,
+.all-rights-reserved {
+    margin: 25px;
+}
+.logo-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .company-logo, .workout-offers {
+    color: #9b9b9b;
+    margin: 15px;
+    font-family: "PT Sans", sans-serif;
+}
 
-}
-.shop-now-nav a {
-    font-family: var(--second-font-family);
-    text-decoration: none;
-    margin: 15px;
+footer .second-nav {
     display: flex;
+    flex-direction: column;
 }
-.foot #second-nav-hr {
-    color: blue;
-    width: 4%;
+
+footer .second-nav-title {
+    color: white;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.5rem;
 }
+
+footer #second-nav-hr {
+    border-color: red;
+    background-color: red;
+    margin: 10px;
+    height: 3px;
+}
+
+footer .second-nav a {
+    color: white;
+    text-decoration: none;
+    font-family: "PT Sans", sans-serif;
+    margin: 5px;
+}
+
+footer .shop-now-nav {
+    display: flex;
+    flex-direction: column;
+}
+footer .shop-now-title {
+    color: white;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.5rem;
+}
+
+footer #shop-now-hr {
+    border-color: red;
+    background-color: red;
+    margin: 10px;
+    height: 3px;
+}
+
+footer .shop-now-nav a {
+    color: white;
+    text-decoration: none;
+    font-family: "PT Sans", sans-serif;
+    margin: 5px;
+}
+
+footer .folow-us-title {
+    color: white;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.5rem;
+}
+
+footer #follow-us-hr {
+    border-color: red;
+    background-color: red;
+    margin: 10px 0 40px 0;
+    height: 3px;
+}
+
+footer .all-rights-reserved {
+    color: white;
+    font-family: "Bebas Neue", cursive;
+}
+footer #botton-hr {
+    border-color: #9b9b9b;
+    background-color: #9b9b9b;
+    height: 2px;
+}
+
+
