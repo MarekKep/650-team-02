@@ -8,6 +8,7 @@ footer {
     margin: auto;
     max-width: 100%
 }
+
 footer .foot,
 .logo-nav,
 .second-nav,
@@ -16,11 +17,13 @@ footer .foot,
 .all-rights-reserved {
     margin: 25px;
 }
+
 .logo-nav {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 footer .company-logo, .workout-offers {
     color: #9b9b9b;
     margin: 15px;
@@ -56,6 +59,7 @@ footer .shop-now-nav {
     display: flex;
     flex-direction: column;
 }
+
 footer .shop-now-title {
     color: white;
     font-family: "Bebas Neue", cursive;
@@ -75,7 +79,6 @@ footer .shop-now-nav a {
     font-family: "PT Sans", sans-serif;
     margin: 5px;
 }
-
 footer .folow-us-title {
     color: white;
     font-family: "Bebas Neue", cursive;
@@ -93,10 +96,68 @@ footer .all-rights-reserved {
     color: white;
     font-family: "Bebas Neue", cursive;
 }
+
 footer #botton-hr {
     border-color: #9b9b9b;
     background-color: #9b9b9b;
     height: 2px;
+    
+}
+footer .follow-us a {
+    margin: 3px;
+}
+
+@media (min-width: 768px) {
+    footer .foot {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 2fr;
+        
+    }
+
+    footer .company-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+
+    footer .second-nav {
+        text-align: right;
+    }
+
+    footer .shop-now-nav {
+        text-align: right;
+    }
+
+    footer .follow-us {
+        padding-left: 35%;
+        text-align: right;
+    }
+    .foot #second-nav-hr {
+        text-align: right;
+        margin-left: 65%;
+        margin-right: -0.5%;
+    }
+    .foot #shop-now-hr {
+        text-align: right;
+        margin-left: 80%;
+        margin-right: -0.5%;
+    }
+    .foot #follow-us-hr {
+        text-align: right;
+        margin-left: 45%;
+        margin-right: -0.5%;
+    }
+}
+@media (max-width: 1100px) {
+    footer .logo-pic {
+        width: 20%;
+    }
+    footer .logo-picture {
+        width: 30%;
+    }
+
 }
 
 
