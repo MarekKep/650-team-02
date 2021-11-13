@@ -2,10 +2,12 @@
 
 .text-why-choose-us {
     font-family: 'Bebas Neue';
+    text-align: center;
 }
 
 .text-keep-fit {
     font-family: 'PT sans';
+    text-align: center;
 }
 
 .text-free-shiping-over {
@@ -38,4 +40,26 @@
 
 .text-pay-for-your {
     font-family: 'PT sans';
+}
+
+.benefits img {
+    width: 50px;
+    padding: 10px;
+}
+
+.section-free-shipping {
+    border: solid;
+}
+
+.section-easy-day-return {
+    border: solid;
+}
+
+.section-eco-materials {
+    border: solid;
+}
+
+.section-payment-methods {
+    border: solid;
+    display: grid;
 }
