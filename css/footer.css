@@ -15,7 +15,7 @@ footer .foot,
 .shop-now-nav,
 .follow-us,
 .all-rights-reserved {
-    margin: 25px;
+    margin: 15px;
 }
 
 .logo-nav {
@@ -28,6 +28,11 @@ footer .company-logo, .workout-offers {
     color: #9b9b9b;
     margin: 15px;
     font-family: "PT Sans", sans-serif;
+}
+footer .company-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer .second-nav {
@@ -46,6 +51,8 @@ footer #second-nav-hr {
     background-color: red;
     margin: 10px;
     height: 3px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 footer .second-nav a {
@@ -71,6 +78,8 @@ footer #shop-now-hr {
     background-color: red;
     margin: 10px;
     height: 3px;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 
 footer .shop-now-nav a {
@@ -90,28 +99,43 @@ footer #follow-us-hr {
     background-color: red;
     margin: 10px 0 40px 0;
     height: 3px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
-footer .all-rights-reserved {
+#all-rights-reserved {
     color: white;
     font-family: "Bebas Neue", cursive;
+    background-color: var(--accent-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-footer #botton-hr {
+#botton-hr {
     border-color: #9b9b9b;
     background-color: #9b9b9b;
-    height: 2px;
     
 }
 footer .follow-us a {
     margin: 3px;
 }
 
+@media (max-width: 768px) {
+    
+footer .follow-us .logo-pic {
+    width: 15%;
+}
+
+footer .follow-us .logo-picture {
+    width: 20%;
+}
+
+}
 @media (min-width: 768px) {
     footer .foot {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 2fr;
-        
     }
 
     footer .company-logo {
@@ -134,21 +158,33 @@ footer .follow-us a {
         padding-left: 35%;
         text-align: right;
     }
+
     .foot #second-nav-hr {
         text-align: right;
         margin-left: 65%;
         margin-right: -0.5%;
     }
+
     .foot #shop-now-hr {
         text-align: right;
         margin-left: 80%;
         margin-right: -0.5%;
     }
+
     .foot #follow-us-hr {
         text-align: right;
         margin-left: 45%;
         margin-right: -0.5%;
+    }  
+
+    #all-rights-reserved .created-by {
+        margin-left: 3%;
     }
+    
+    #all-rights-reserved .rights {
+        margin-right: 2%;
+    }
+    
 }
 @media (max-width: 1100px) {
     footer .logo-pic {
