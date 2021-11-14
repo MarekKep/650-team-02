@@ -1,32 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
 
+.contact-us-main {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.maps-container iframe {
+    max-width: 100%;
+    filter: grayscale();
+}
+
 #contact-us {
     box-sizing: border-box;
     text-align: center;
-    width: 30%;
-    height: 200px;
-    /* position:absolute; */
+    position: absolute;
+    bottom: 20px;
+    left: 22.5%;
+    right: 10%;
     background-color: #fff;
-    bottom: 400px;
-    right: 20%;
-} 
-
-.contact-us-main {
-
-   display: flex;
-   /* position: relative; */
+    width: 55.3%;
+    padding: 30px;
+    line-height: 45px;
 }
 
-.contact-us-main iframe {
+#contact-us h2 {
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#contact-us a {
     display: flex;
-}
-
-.contact-us-main a {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-content: center;
     text-decoration: none;
     color: var(--second-accent-color);
 }
-.contact-us-main h2 {
-    font-family: var(--font-family);
+
+#contact-us address {
+    line-height: 20px;
+    color: var(--second-accent-color);
+}
+
+#contact-us .header-dot-style {
+    font-size: 50px;
+}
+
+@media (min-width: 600px){
+    #contact-us {
+        box-sizing: border-box;
+        text-align: center;
+        position: absolute;
+        bottom: 40%;
+        left: 60%;
+        width: 35%;
+        padding: 20px;
+    }
 }
