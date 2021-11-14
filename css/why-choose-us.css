@@ -1,45 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
 
+:root {
+    --text-color: #fff;
+    --company-color: #f40106;
+    --accent-color: #222323;
+    --second-accent-color: #9b9b9b;
+    --font-family: 'Bebas Neue', cursive;
+    --second-font-family: 'PT Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
 .text-why-choose-us {
     font-family: 'Bebas Neue';
     text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .text-keep-fit {
     font-family: 'PT sans';
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .text-free-shiping-over {
     font-family: 'Bebas Neue';
+    text-align: center;
+
 }
 
 .text-get-advatage {
     font-family: 'PT sans';
+    text-align: center;
+
 }
 
 .text-easy-day-return {
     font-family: 'Bebas Neue';
+    text-align: center;
 }
 
 .text-if-the-item {
     font-family: 'PT sans';
+    text-align: center;
+
 }
 
 .text-eco-materials {
     font-family: 'Bebas Neue';
+    text-align: center;
+
 }
 
 .text-all-items-are-made {
     font-family: 'PT sans';
+    text-align: center;
+
 }
 
 .text-payment-methods {
     font-family: 'Bebas Neue';
+    text-align: center;
+
 }
 
 .text-pay-for-your {
     font-family: 'PT sans';
+    text-align: center;
+
 }
 
 .benefits img {
@@ -48,18 +78,21 @@
 }
 
 .section-free-shipping {
-    border: solid;
+    border: solid var(--second-accent-color);
+    text-align: center;
 }
 
 .section-easy-day-return {
-    border: solid;
+    border: solid var(--second-accent-color);
+    text-align: center;
 }
 
 .section-eco-materials {
-    border: solid;
+    border: solid var(--second-accent-color);
+    text-align: center;
 }
 
 .section-payment-methods {
-    border: solid;
-    display: grid;
+    border: solid var(--second-accent-color);
+    text-align: center;
 }
