@@ -35,6 +35,8 @@
     align-content: center;
     text-decoration: none;
     color: var(--second-accent-color);
+    font-family: var(--second-font-family);
+    font-size: 18px;
 }
 
 #contact-us address {
