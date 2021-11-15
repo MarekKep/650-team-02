@@ -5,6 +5,7 @@
     background-size: cover;
     background-position: center;
 }
+
 .front-page-text {
     display: flex;
     flex-direction: column;
@@ -15,22 +16,27 @@
     font-family: 'Bebas Neue', cursive;
     font-weight: 100;
 }
+
 .front-page-text h1 {
     color: var(--accent-color);
     font-size: 7em;
 }
+
 @media (max-width: 490px) {
     .front-page-text {
         font-size: 10px;
     }
 }
+
 .front-page-text p {
     color: #9b9b9b;
     font-size: 1.5em;
 }
+
 #front-page-collections, #front-page-dot {
     color: red;
 }
+
 .front-page-button a {
         padding: 0.35em 1.2em;
         border: none;
@@ -45,11 +51,13 @@
         font-size: 1.5em;
         font-family: 'PT Sans', cursive;
 }
+
 .front-page-button a:hover {
     color: white;
     background-color: var(--accent-color);
     cursor: pointer;
   }
+  
   #button {
     display: flex;
     text-decoration: none;
