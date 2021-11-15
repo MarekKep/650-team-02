@@ -35,6 +35,7 @@ header .container nav {
     align-items: center;
 }
 
+
 #burger-checkbox {
     display: none;
 }
@@ -47,7 +48,7 @@ header .container .menu-nav, .social-media-logos {
     display: none;
 }
 
-#burger-checkbox:checked ~ .menu-nav, .social-media-logos a {
+#burger-checkbox:checked ~ .menu-nav {
     display: flex;
 }
 

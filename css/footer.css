@@ -29,6 +29,7 @@ footer .company-logo, .workout-offers {
     margin: 15px;
     font-family: "PT Sans", sans-serif;
 }
+
 footer .company-logo {
     display: flex;
     flex-direction: column;
@@ -173,7 +174,7 @@ footer .follow-us .logo-picture {
 
     .foot #follow-us-hr {
         text-align: right;
-        margin-left: 45%;
+        margin-left: 65%;
         margin-right: -0.5%;
     }  
 

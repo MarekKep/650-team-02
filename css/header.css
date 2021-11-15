@@ -25,11 +25,13 @@ header {
     right: 0;
     z-index: 1;
 }
+
 header .container nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 #burger-checkbox {
     display: none;
 }
@@ -91,6 +93,7 @@ header .container .social-media-logos a {
         align-items: center;
         justify-content: space-evenly;
     }
+
     header .container .menu-nav {
         flex-direction: row;
         align-items: center;
