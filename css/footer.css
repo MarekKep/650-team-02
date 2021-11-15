@@ -51,7 +51,7 @@ footer #second-nav-hr {
     border-color: red;
     background-color: red;
     margin: 10px;
-    height: 3px;
+    height: 1px;
     margin-left: 25%;
     margin-right: 25%;
 }
@@ -78,7 +78,7 @@ footer #shop-now-hr {
     border-color: red;
     background-color: red;
     margin: 10px;
-    height: 3px;
+    height: 1px;
     margin-left: 35%;
     margin-right: 35%;
 }
@@ -99,7 +99,7 @@ footer #follow-us-hr {
     border-color: red;
     background-color: red;
     margin: 10px 0 40px 0;
-    height: 3px;
+    height: 1px;
     margin-left: 25%;
     margin-right: 25%;
 }
@@ -125,11 +125,11 @@ footer .follow-us a {
 @media (max-width: 768px) {
     
 footer .follow-us .logo-pic {
-    width: 15%;
+    width: 8%;
 }
 
 footer .follow-us .logo-picture {
-    width: 20%;
+    width: 11%;
 }
 
 }
@@ -151,8 +151,18 @@ footer .follow-us .logo-picture {
         text-align: right;
     }
 
+    footer .second-nav a:hover {
+        color:red;
+        transition: 0.4s;
+    }
+
     footer .shop-now-nav {
         text-align: right;
+    }
+
+    footer .shop-now-nav a:hover {
+        color:red;
+        transition: 0.4s;
     }
 
     footer .follow-us {
@@ -196,5 +206,3 @@ footer .follow-us .logo-picture {
     }
 
 }
-
-

@@ -5,6 +5,8 @@
     padding: 0;
 }
 
+/* header */
+
 :root {
     --text-color: #fff;
     --company-color: #f40106;
@@ -24,14 +26,6 @@ header .return-period {
 }
 
 
-header {
-
-    position: fixed;
-    top: 0; 
-    left: 0; 
-    right: 0;
-    z-index: 3;
-}
 header .container {
     color: var(--text-color);
     background-color: var(--accent-color);
