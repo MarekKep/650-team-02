@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
 
+.red_pointer {
+    color: red;
+}
+
 .text-deal-of-the-month {
     font-family: 'Bebas Neue';
 }
