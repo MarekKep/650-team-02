@@ -1,13 +1,21 @@
 
-#workout-woman{
+/* #workout-woman{
     position: relative;
     width: 100%;
+} */
+.workout-woman-img img {
+height: 80%;
+}
+.workout-woman-img {
+  object-fit: cover;
+  object-position: left;
 }
 .keep-fit-with-confort {
     position: absolute;
       padding-top: 2em;
       color: #fff;
       padding-left: 50%;
+      line-height: 1.5;
     }
 .original-brand {
   font-size: 24px;
@@ -44,7 +52,7 @@
     transition: color 0.7s;
     background-color: transparent;
     font-size: 16.5px!important;
-    line-height: 1.3333em!important;
+    line-height: 3em!important;
   }
   .keep-learn-more:hover {
     color: black;
