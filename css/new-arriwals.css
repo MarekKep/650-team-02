@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
 
-.menu-new-arrivals {
-     margin: 10% auto;
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     width: 980px;
-     
-}
-
 .menu-newarriwals {
     font-family: 'Bebas Neue';
 }
@@ -35,68 +26,39 @@
 
 .block-new-arrival {
     background-image: url(../img/new-arivals/man-with-sneakers.svg);
+    background-position: center;
     background-size: cover;
-    width: 300px;
     height: 200px;
-    align-items: flex-end;
-    display: flex;
-    flex-basis: 40%;
-
+    margin: 25px 20px 25px 20px;
 }
 
 .block-trainers {
     background-image: url(../img/new-arivals/skateboarder.png);
+    background-position: center;
     background-size: cover;
-    width: 300px;
-    height: 200px;
-    align-items: flex-end;
-    display: flex;
-    flex-basis: 25%;
-
+    height: 250px;
+    margin: 25px 20px 25px 20px;
 }
 
 .block-hot-sale {
     background-image: url(../img/new-arivals/clothes.png);
+    background-position: center;
     background-size: cover;
-    width: 300px;
-    height: 200px;
-    align-items: flex-end;
-    display: flex;
-    flex-basis: 25%;
-  
-}
-
-.div-trainers {
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 0 0 5px 10px;
+    height: 250px;
+    margin: 25px 20px 25px 20px;
 }
 
 .div-new-arrival {
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 0 0 5px 10px;
+    padding-left: 1.5em;
+    padding-top: 7em;
+}
+
+.div-trainers {
+    padding-left: 1.5em;
+    padding-top: 9.5em;
 }
 
 .div-hot-sale {
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 0 0 5px 10px;
-}
-
-.line_red_text-trainers {
-    width: 30%;
-    color: red;
-}
-
-.red_line_div-new-arrival {
-    width: 30%;
-    background-color: red;
-    margin-bottom: 10px;
+    padding-left: 1.5em;
+    padding-top: 9.5em;
 }
