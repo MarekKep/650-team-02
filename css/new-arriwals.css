@@ -1,7 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
 
+:root {
+    --text-color: #fff;
+    --company-color: #f40106;
+    --accent-color: #222323;
+    --second-accent-color: #9b9b9b;
+    --font-family: 'Bebas Neue', cursive;
+    --second-font-family: 'PT Sans', sans-serif;
+    scroll-behavior: smooth;
+    }
+
 .menu-newarriwals {
     font-family: 'Bebas Neue';
+    font-size: 35px;
+}
+
+.point-menu-newarriwals{
+    color: #f40106;
+}
+
+.red_line_div-new-arrival {
+    margin-top:20px;
+    border-top:2px solid #f00;
+    height:100%;
+    length: 10px;
 }
 
 .newarrival-button {
@@ -10,14 +32,45 @@
 
 .text-trainers{
     font-family: 'Bebas Neue';
+    font-size: 35px;
+}
+
+.point-text-trainers {
+    color: #f40106;
+}
+
+.line_red_text-trainers {
+    margin-top:20px;
+    border-top:2px solid #f00;
+    height:100%;
+    length: 10px;
 }
 
 .trainers-buttom {
     font-family: 'PT sans';
 }
 
+.line_red_text-trainers {
+    margin-top:20px;
+    border-top:2px solid #f00;
+    height:100%;
+    length: 10px;
+}
+
 .text-hot-sale {
     font-family: 'Bebas Neue';
+    font-size: 35px;
+}
+
+.piont-text-hot-sale {
+    color: #f40106;
+}
+
+.line-text-hot-sale {
+    margin-top:20px;
+    border-top:2px solid #f00;
+    height:100%;
+    length: 10px;
 }
 
 .hot-sale-buttom {
@@ -28,7 +81,7 @@
     background-image: url(../img/new-arivals/man-with-sneakers.svg);
     background-position: center;
     background-size: cover;
-    height: 200px;
+    height: 250px;
     margin: 25px 20px 25px 20px;
 }
 
@@ -36,7 +89,7 @@
     background-image: url(../img/new-arivals/skateboarder.png);
     background-position: center;
     background-size: cover;
-    height: 250px;
+    height: 300px;
     margin: 25px 20px 25px 20px;
 }
 
@@ -44,7 +97,7 @@
     background-image: url(../img/new-arivals/clothes.png);
     background-position: center;
     background-size: cover;
-    height: 250px;
+    height: 300px;
     margin: 25px 20px 25px 20px;
 }
 
