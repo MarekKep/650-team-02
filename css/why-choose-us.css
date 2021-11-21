@@ -13,16 +13,24 @@
 .text-why-choose-us {
     font-family: 'Bebas Neue';
     text-align: center;
-    margin-top: 50px;
-    font-size: 30px;
+    margin-top: 100px;
+    font-size: 35px;
     margin-bottom: 20px;
+}
+
+.piont-text-why-choose-us {
+    color: #f40106;
 }
 
 .text-keep-fit {
     font-family: 'PT sans';
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #9b9b9b;
+    font-size: 20px;
 }
 
 .text-free-shiping-over {
