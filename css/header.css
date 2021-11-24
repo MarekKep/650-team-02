@@ -18,7 +18,10 @@
         background-color: var(--company-color);
     }
     
-    
+    .container .time {
+        font-size: x-large;
+    }
+
     header {
     
         position: fixed;
