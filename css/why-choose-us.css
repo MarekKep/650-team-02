@@ -18,6 +18,14 @@
     margin-bottom: 20px;
 }
 
+.line-why-choose-us {
+    width: 15%;
+    margin-left: 140px;
+    color: #9b9b9b;
+    border-top:2px solid;
+
+}
+
 .piont-text-why-choose-us {
     color: #f40106;
 }
