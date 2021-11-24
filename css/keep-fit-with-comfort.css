@@ -5,6 +5,7 @@
 } */
 .workout-woman-img img {
 height: 80%;
+width: 100%;
 }
 .workout-woman-img {
   object-fit: cover;
