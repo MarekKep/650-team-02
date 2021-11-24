@@ -22,8 +22,9 @@
 .red_line_div-new-arrival {
     margin-top:20px;
     border-top:2px solid #f00;
-    height:100%;
+    height: 100%;
     length: 10px;
+    width: 15%;
 }
 
 .newarrival-button {
@@ -44,17 +45,11 @@
     border-top:2px solid #f00;
     height:100%;
     length: 10px;
+    width: 15%;
 }
 
 .trainers-buttom {
     font-family: 'PT sans';
-}
-
-.line_red_text-trainers {
-    margin-top:20px;
-    border-top:2px solid #f00;
-    height:100%;
-    length: 10px;
 }
 
 .text-hot-sale {
@@ -71,6 +66,7 @@
     border-top:2px solid #f00;
     height:100%;
     length: 10px;
+    width: 15%;
 }
 
 .hot-sale-buttom {
@@ -114,4 +110,25 @@
 .div-hot-sale {
     padding-left: 1.5em;
     padding-top: 9.5em;
+}
+
+.newarrival-button {
+    border: 0;
+    background: none;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.trainers-buttom {
+    border: 0;
+    background: none;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.hot-sale-buttom {
+    border: 0;
+    background: none;
+    font-weight: bolder;
+    margin-top: 15px;
 }
