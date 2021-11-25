@@ -8,21 +8,40 @@
     font-weight: 400;
     text-align: center; 
 }
+.main-collection-dot-style {
+    color: red;
+    font-size: 1.3em;
+}
+/* .line-main-collection {
+    width: 200px;
+    height: 2px;
+    background-color: #e0e0e0;
+} */
 .shop-our-main {
     color: #717474;
     font-family: 'PT Sans', sans-serif;
     font-size: 20px;
-    text-align: center;    
+    text-align: center;
+    line-height: 3;    
 }
 .menu-main-collection {
-display: flex;
+    display: flex; 
+    line-height: 2;
 }
+/* .menu-main-collection hr {
+    border: none;
+    background-color: #E5E6E8;
+    color: #E5E6E8;
+    height: 1px;
+} */
 .menu-main-collection_item {
-    color: black;
+    color: #717474;
     text-align: center;
-    padding: 20px;
     text-decoration: none;
-    flex-grow: 1;
+    flex-grow: 0.1;
+    font-size: 16px;
+    position: relative;
+    min-width: 30%;
 }
 .main-collection-img img {
 width: 70%;
@@ -32,10 +51,10 @@ width: 70%;
     grid-template-columns: 1fr;
 }
 .menu-main-collection_item--active {
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
 }
 .main-collection-content_item {
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
     display: none;
     padding: 20px;
 }
@@ -50,6 +69,7 @@ width: 70%;
     line-height: 1.56;
     font-weight: 400;
     color: #717474;
+    display: block;
 }
 .price-main-collection {
     font-family: 'PT Sans', sans-serif;
