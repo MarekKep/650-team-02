@@ -50,7 +50,11 @@
 .text-get-advatage {
     font-family: 'PT sans';
     text-align: center;
-
+    color: #9b9b9b;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 .text-easy-day-return {
@@ -61,7 +65,11 @@
 .text-if-the-item {
     font-family: 'PT sans';
     text-align: center;
-
+    color: #9b9b9b;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 .text-eco-materials {
@@ -73,7 +81,11 @@
 .text-all-items-are-made {
     font-family: 'PT sans';
     text-align: center;
-
+    color: #9b9b9b;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 .text-payment-methods {
@@ -85,30 +97,44 @@
 .text-pay-for-your {
     font-family: 'PT sans';
     text-align: center;
-
+    color: #9b9b9b;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 .benefits img {
     width: 50px;
     padding: 10px;
+    margin-top: 10px;
+}
+
+.benefits {
+    margin-left: 15px;
+    margin-bottom: 30px;
 }
 
 .section-free-shipping {
     border: solid var(--second-accent-color);
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .section-easy-day-return {
     border: solid var(--second-accent-color);
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .section-eco-materials {
     border: solid var(--second-accent-color);
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .section-payment-methods {
     border: solid var(--second-accent-color);
     text-align: center;
+    margin-bottom: 30px;
 }
