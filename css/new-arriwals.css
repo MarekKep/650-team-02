@@ -145,19 +145,9 @@
     .menu-new-arrivals {
         display: flex;
         justify-content: center;
+        align-items: flex-start;
         margin-top: 50px;
     }
 
-   .block-new-arrival{
-      weight: 200px;
-   }
-
-   .block-trainers {
-
-   }
-
-   .block-hot-sale {
-
-   }
-
+    
 }
