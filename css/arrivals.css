@@ -1,11 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --text-color: #fff;
+    --company-color: #f40106;
+    --accent-color: #222323;
+    --second-accent-color: #9b9b9b;
+    --font-family: 'Bebas Neue', cursive;
+    --second-font-family: 'PT Sans', sans-serif;
+    scroll-behavior: smooth;
+    }
+
 .text-arrivals {
     font-family: 'Bebas Neue';
+    font-size: 80px;
+    margin-top: 100px;
+    margin-left: 100px;
 }
 
 .text-be-first {
     font-family: 'PT sans';
+    color: #9b9b9b;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 50px;
 }
 
 .text-more-product {
@@ -14,4 +36,8 @@
 
 .prices-for-goods {
     font-family: 'PT sans';
+}
+
+.piont-text-arrivals {
+    color: red;
 }

@@ -1,29 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
 
+:root {
+    --text-color: #fff;
+    --company-color: #f40106;
+    --accent-color: #222323;
+    --second-accent-color: #9b9b9b;
+    --font-family: 'Bebas Neue', cursive;
+    --second-font-family: 'PT Sans', sans-serif;
+    scroll-behavior: smooth;
+    }
+
+
 .red_pointer {
     color: red;
 }
 
 .text-deal-of-the-month {
     font-family: 'Bebas Neue';
+    color: #fff;
+    font-size: 60px;
+    margin-top: 100px;
+    margin-left: 30px;
 }
 
 .text-puma-sports {
     font-family: 'Bebas Neue';
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 .text-start-your {
     font-family: 'PT sans';
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 .text-more-details {
     font-family: 'PT sans';
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
+.fifty-dollars {
+    color: red;
+    font-size: 30px;
+}
+
+.seventy-dollars {
+    text-decoration: line-through;
+}
+
+
 .deal-of-the-month {
-    background-image: url(../img/deal-of-the-month/stretch-women.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 915px;
-   
+    background-color: #222323;
+    height: 700px;
+    width: 700px;
+
 }
