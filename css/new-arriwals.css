@@ -73,12 +73,20 @@
     font-family: 'PT sans';
 }
 
+.new-arrival-conteiner {
+    width: 320px;
+}
+
+.menu-new-arrivals {
+    margin-top: 50px;
+}
+
 .block-new-arrival {
     background-image: url(../img/new-arivals/man-with-sneakers.svg);
     background-position: center;
     background-size: cover;
-    height: 250px;
-    margin: 25px 20px 25px 20px;
+    height: 300px;
+    margin: 0 auto 25px auto;
 }
 
 .block-trainers {
@@ -86,7 +94,7 @@
     background-position: center;
     background-size: cover;
     height: 300px;
-    margin: 25px 20px 25px 20px;
+    margin: 0 auto 25px auto;
 }
 
 .block-hot-sale {
@@ -94,7 +102,7 @@
     background-position: center;
     background-size: cover;
     height: 300px;
-    margin: 25px 20px 25px 20px;
+    margin: 0 auto 25px auto;
 }
 
 .div-new-arrival {
@@ -133,20 +141,24 @@
     margin-top: 15px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .menu-new-arrivals {
         display: flex;
-        justify-content: flex-start;
         margin-top: 50px;
+        min-width: 768px;
+        flex-basis: 30%;
+        justify-content: space-between;
     }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
     .menu-new-arrivals {
         display: flex;
         justify-content: center;
         align-items: flex-start;
         margin-top: 50px;
+
+
     }
 
     
