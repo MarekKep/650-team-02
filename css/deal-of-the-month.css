@@ -10,35 +10,38 @@
     scroll-behavior: smooth;
     }
 
+.deal-of-the-month-container {
+    min-width: 320px;
+    
+}
+
+    .deal-of-the-month {
+        background-color: #222323;
+        padding-top: 50px;
+
+    
+    }
+
+    .stretching-woman {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    .text-deal-of-the-month {
+        font-family: 'Bebas Neue';
+        color: #fff;
+        font-size: 60px;
+        margin-left: 30px;
+    }
+
 
 .red_pointer {
     color: red;
 }
 
-.text-deal-of-the-month {
-    font-family: 'Bebas Neue';
-    color: #fff;
-    font-size: 60px;
-    margin-top: 100px;
-    margin-left: 30px;
-}
-
 .text-puma-sports {
     font-family: 'Bebas Neue';
-    color: #fff;
-    margin-left: 30px;
-    margin-top: 30px;
-}
-
-.text-start-your {
-    font-family: 'PT sans';
-    color: #fff;
-    margin-left: 30px;
-    margin-top: 30px;
-}
-
-.text-more-details {
-    font-family: 'PT sans';
     color: #fff;
     margin-left: 30px;
     margin-top: 30px;
@@ -54,9 +57,43 @@
 }
 
 
-.deal-of-the-month {
-    background-color: #222323;
-    height: 700px;
-    width: 700px;
+.text-start-your {
+    font-family: 'PT sans';
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.text-more-details {
+    font-family: 'PT sans';
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+    .deal-of-the-month-container {
+        min-width: 768px;
+        display: flex;
+        flex-basis: 50%;
+        
+    }
+
+    .deal-of-the-month {
+        padding: 50px 50px 0 50px;
+    }
+
+    .stretching-woman {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .deal-of-the-month-container {
+        min-width: 1024px;
+        
+    }
 
 }
+
+
