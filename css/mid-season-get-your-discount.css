@@ -13,7 +13,7 @@
 
 .mid-season-sale-tittle,
 .mid-season-sale-info {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .mid-season-sale-tittle {
@@ -199,6 +199,10 @@
   .mid-season-sale-product-tittle {
     font-size: 20px;
   }
+  .mid-season-sale-info {
+    margin: 0 auto 30px auto;
+    width: 70%;
+  }
   .get-your-discount-section {
     min-height: 800px;
   }
@@ -207,15 +211,3 @@
   }
 }
 
-#ballcontainer {
-  background-color: yellow;
-  height: 500px;
-}
-
-.ball {
-  background-color: red;
-  width: 150px;
-  height: 150px;
-  border: 1px solid black;
-  border-radius: 50%;
-}
