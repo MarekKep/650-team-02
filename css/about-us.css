@@ -21,7 +21,7 @@
     }
     .social-media-logo {
         display: inline-block;
-        max-width: 30%;
+        max-width: 45%;
         padding: 20px;
     }
     #about-us a {
@@ -75,6 +75,7 @@
 .social-media-logo {
     display: flex;
     flex-direction: row;
+    width: 40%;
     padding: 20px;
 }
 
@@ -103,14 +104,14 @@
 .new-fitness-collection h2{
     color: var(--accent-color);
     font-family: var(--font-family);
-    font-size: 120px;
+    font-size: 5rem;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 .header-dot-style-nfc {
-    margin-left: -20px;
-    font-size: 110px;
+    
+    font-size: 100%;
     color: red;
 }
 .link-collection {
