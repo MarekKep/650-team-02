@@ -3,35 +3,35 @@
     const products = [
         {
             id: "1",
-            image: "../img/mid-season-get-your-discount/adidas-cloudfoam-trainers.jpg",
+            image: "img/mid-season-get-your-discount/adidas-cloudfoam-trainers.jpg",
             tittle: "Adidas Cloudfoam Trainers",
             price: 60.00,
             button: "Add to Cart"
         },
         {
             id: "2",
-            image: "../img/mid-season-get-your-discount/reebok-workout-shorts.jpg",
+            image: "img/mid-season-get-your-discount/reebok-workout-shorts.jpg",
             tittle: "Reebok Workout Shorts",
             price: 25.00,
             button: "Add to Cart"
         },
         {
             id: "3",
-            image: "../img/mid-season-get-your-discount/puma-fitness-shoes-grey.jpg",
+            image: "img/mid-season-get-your-discount/puma-fitness-shoes-grey.jpg",
             tittle: "Puma Fitness Shoes in Grey",
             price: 60.00,
             button: "Add to Cart"
         },
         {
             id: "4",
-            image: "../img/mid-season-get-your-discount/puma-essentia-tank-top.jpg",
+            image: "img/mid-season-get-your-discount/puma-essentia-tank-top.jpg",
             tittle: "Puma Essential Tank Top",
             price: 43.00,
             button: "Add to Cart"
         },
         {
             id: "5",
-            image: "../img/mid-season-get-your-discount/nike-classic-polo-shirt.jpg",
+            image: "img/mid-season-get-your-discount/nike-classic-polo-shirt.jpg",
             tittle: "Nike Classic Polo T-Shirt",
             price: 23.00,
             button: "Add to Cart"
