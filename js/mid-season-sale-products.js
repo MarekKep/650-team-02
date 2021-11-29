@@ -77,27 +77,4 @@
 
     renderProducts(products, "ascending");
 
-    function sayHi() {
-        alert('Hi!!!')
-    }
-
-    function sayHello() {
-        alert('Hello!!!')
-    }
-    
-    someTest.onclick = function (event) {
-        alert(event.type);
-        sayHi();
-    };
-
-    let obj = {
-        handleEvent: function (event) {
-            alert(event.type);
-            alert(event.currentTarget);
-            sayHello();
-        }
-    }
-
-    someTest.addEventListener('click', obj);
-
 })()
