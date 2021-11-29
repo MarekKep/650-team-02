@@ -19,8 +19,8 @@
 }
 
 .line-why-choose-us {
-    width: 15%;
-    margin-left: 140px;
+    margin: 30px auto 30px auto;
+    width: 5%;
     color: #9b9b9b;
     border-top:2px solid;
 
@@ -142,14 +142,15 @@
 @media (min-width: 768px) {
 
     .line-why-choose-us {
-        margin-left: 320px;
+        margin: 30px auto 30px auto;
+        width: 5%;
     }
 }
 
 @media (min-width: 1024px) {
 
     .line-why-choose-us {
-        margin-left: 480px;
+        margin: 30px auto 30px auto;
         width: 5%;
     }
 

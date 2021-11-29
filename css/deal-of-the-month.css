@@ -60,31 +60,41 @@
 .text-start-your {
     font-family: 'PT sans';
     color: #fff;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin: 30px 30px 30px 30px;
 }
 
 .text-more-details {
     font-family: 'PT sans';
     color: #fff;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin: 30px 30px 30px 30px;
 }
 
 .timer__items {
     display: flex;
     font-size: 48px;
     color: aliceblue;
+    margin: 30px;
+
   }
 
+  .timer__item timer__days {
 
-  
+  }
+
+  .timer__item {
+    position: relative;
+    min-width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+
 @media (min-width: 768px) {
     .deal-of-the-month-container {
         min-width: 768px;
         display: flex;
         flex-basis: 50%;
-        
     }
 
     .deal-of-the-month {
@@ -99,7 +109,6 @@
 @media (min-width: 1024px) {
     .deal-of-the-month-container {
         min-width: 1024px;
-        
     }
 
 }
