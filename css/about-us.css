@@ -91,7 +91,7 @@
 
 
 .new-fitness-collection .new-fitness-collection-text {
-    /* display: flex; */
+    
     justify-content: flex-start;
     font-family: var(--second-font-family);
     font-size: 1.5vmax;
@@ -101,25 +101,22 @@
 }
 
 .new-fitness-collection h2{
-    /* display: flex; */
     color: var(--accent-color);
     font-family: var(--font-family);
-    font-size: 10vmax;
+    font-size: 120px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-/* .new-fitness-collection span{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-} */
-
-.header-dot-style {
+.header-dot-style-nfc {
+    margin-left: -20px;
+    font-size: 110px;
     color: red;
-    font-size: 1em;
 }
-.new-fitness-collection a{
+.link-collection {
+  padding: 50px 0px 0px 0px;
+}
+.link-collection a{
     padding: 0.35em 1.2em;
     border: none;
     margin: 0 0.3em 0.3em 0;
