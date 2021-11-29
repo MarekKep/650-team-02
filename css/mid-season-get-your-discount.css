@@ -1,6 +1,6 @@
 .wrapper {
   min-width: 320px;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
   font-size: 20px;
 }
 
@@ -70,7 +70,8 @@
   color: red;
 }
 
-.btn-add-to-cart {
+.btn-add-to-cart,
+.btn-price {
   color: #fff;
   font-size: 1rem;
   font-weight: bold;
@@ -78,6 +79,10 @@
   background: #000;
   width: 130px;
   padding: 18px;
+}
+
+.btn-price {
+  padding: 5px;
 }
 
 .btn-add-to-cart:hover {
