@@ -84,13 +84,14 @@
     background-position: center;
     min-height: 500px;
     padding-top: 10%;
+    padding-bottom: 10%;
     padding-left: 8%;
 
 }
 
 
 .new-fitness-collection .new-fitness-collection-text {
-    display: flex;
+    /* display: flex; */
     justify-content: flex-start;
     font-family: var(--second-font-family);
     font-size: 1.5vmax;
@@ -100,7 +101,7 @@
 }
 
 .new-fitness-collection h2{
-    display: flex;
+    /* display: flex; */
     color: var(--accent-color);
     font-family: var(--font-family);
     font-size: 10vmax;
@@ -108,11 +109,11 @@
     text-transform: uppercase;
 }
 
-.new-fitness-collection span{
+/* .new-fitness-collection span{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-}
+} */
 
 .header-dot-style {
     color: red;
