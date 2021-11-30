@@ -111,6 +111,10 @@
         transition:all 0.2s;
         top: -5px;
     }
+
+    .container .time {
+        display: none;
+    }
     
     .container .menu-btn, .social-media-logos a {
         display: none;
@@ -122,6 +126,12 @@
     
     .container .menu-btn:checked ~ .social-media-logos a {
         display: flex;
+    }
+
+    .container .menu-btn:checked ~ .time {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
     }
     
     .container .menu-btn:checked ~ .menu-icon .nav-icon {
