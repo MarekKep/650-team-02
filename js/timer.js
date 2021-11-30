@@ -19,10 +19,10 @@ document.addEventListener('DOMContentLoaded', function () {
     $hours.textContent = hours < 10 ? '0' + hours : hours;
     $minutes.textContent = minutes < 10 ? '0' + minutes : minutes;
     $seconds.textContent = seconds < 10 ? '0' + seconds : seconds;
-    $days.dataset.title = declensionNum(days, ['Days']);
-    $hours.dataset.title = declensionNum(hours, ['Hours']);
-    $minutes.dataset.title = declensionNum(minutes, ['Minutes']);
-    $seconds.dataset.title = declensionNum(seconds, ['Seconds']);
+    $days.dataset.title = declensionNum(days, ['Day', 'Days']);
+    $hours.dataset.title = declensionNum(hours, ['Hour', 'Hours']);
+    $minutes.dataset.title = declensionNum(minutes, ['Minute','Minutes']);
+    $seconds.dataset.title = declensionNum(seconds, ['Second', 'Seconds']);
   }
   const $days = document.querySelector('.timer__days');
   const $hours = document.querySelector('.timer__hours');
