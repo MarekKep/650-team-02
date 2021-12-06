@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
+
+ .our-brands {
+    display: flex;
+    font-family: 'Bebas Neue' sans-serif;
+    overflow: hidden;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.slide {
+    height: 30vh;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+    flex: 1;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.slide .brand-name {
+    position: absolute;
+    color:rgb(212, 20, 6);
+    font-size: 30px;
+    bottom: 30px;
+    left: 10px;
+    margin: 0;
+    opacity: 0;
+}
+
+.slide.active {
+    flex: 10;
+}
+
+.slide.active h3 {
+    opacity: 1;
+    transition: opacity 0.5s ease-in 0.4s;
+}
